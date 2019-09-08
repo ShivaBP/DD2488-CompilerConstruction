@@ -1,0 +1,669 @@
+INFO  time: initialize in 0.8s
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 367, 367, 377)
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 499, 499, 509)
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Int]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 592, 592, 601)
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 499, 499, 509)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 499, 499, 509)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 499, 499, 509)
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 617, 617, 627)
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Char]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 678, 678, 688)
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 07, 2019 6:57:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1161
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Exception in thread "pool-1-thread-70" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:20)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:350)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:59)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:171)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:164)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Sep 07, 2019 7:21:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1463
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/scalafmt-cli_2.12-2.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/scalafmt-cli_2.12-2.0.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/scalafmt-cli_2.12-2.0.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/scalafmt-cli_2.12-2.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-cli_2.12/2.0.1/
+Downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0.pom
+Downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/scalafmt-core_2.12-2.0.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/scalafmt-core_2.12-2.0.1.pom
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.12/2.0.1/
+Downloaded https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/scopt_2.12-3.5.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/scalafmt-core_2.12-2.0.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/scalafmt-core_2.12-2.0.1.pom
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom
+Downloading https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/
+Downloading https://repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-dynamic_2.12/2.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/
+Downloaded https://repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.5.0/
+Downloaded https://repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/2.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/
+Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/
+Downloaded https://repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/
+Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/
+Downloading https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/coursier-small_2.12-1.3.1.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/coursier-small_2.12-1.3.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/scalameta_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/metaconfig-core_2.12-0.8.3.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/metaconfig-core_2.12-0.8.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/scalameta_2.12-4.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/coursier-small_2.12-1.3.1.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/metaconfig-typesafe-config_2.12-0.8.3.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/metaconfig-core_2.12-0.8.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/scalameta_2.12-4.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/metaconfig-typesafe-config_2.12-0.8.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/coursier-small_2.12-1.3.1.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/metaconfig-core_2.12-0.8.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/scalameta_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/metaconfig-typesafe-config_2.12-0.8.3.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-interfaces/2.0.1/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/metaconfig-typesafe-config_2.12-0.8.3.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.8.3/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/coursier-small_2.12/1.3.1/
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.8.3/
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/paiges-core_2.12-0.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/paiges-core_2.12-0.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/parsers_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/parsers_2.12-4.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/scalap-2.12.8.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/scalap-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/paiges-core_2.12-0.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/paiges-core_2.12-0.2.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/parsers_2.12-4.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/scalap-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/parsers_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.0/
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/scalap-2.12.8.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.8/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.pom.sha1
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.pom.sha1
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/trees_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/trees_2.12-4.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/trees_2.12-4.2.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/trees_2.12-4.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.0/
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/common_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/common_2.12-4.2.0.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/common_2.12-4.2.0.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/common_2.12-4.2.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.0/
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/
+Downloading https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/
+Sep 07, 2019 7:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1539
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 07, 2019 7:27:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -10
+java.lang.StringIndexOutOfBoundsException: String index out of range: -10
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.internal.Trees.traverseComponents$1(Trees.scala:1299)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1368)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$3(Trees.scala:1367)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1367)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:335)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:312)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:312)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:311)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:311)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:13: error: unclosed string literal
+    var string: String = "I told him (that it's not (yet) done).
+                         ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:41: error: ; expected but else found
+      else if (char == ")") {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:44: error: ) expected but if found
+      if (character.equals(')')) {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:42: error: ) expected but if found
+      if (character.equals(')')) {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:42: error: ) expected but else found
+      else if (character.equals(')')) {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:42: error: ) expected but else found
+      else if (character.equals(')')) {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:42: error: ) expected but else found
+      else if (character.equals(')')) {
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:39: error: illegal start of simple expression
+      if (character.equals('(')) ){
+                                 ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 08, 2019 6:33:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3321
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 08, 2019 6:34:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3375
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:20: error: illegal start of simple expression
+    println(countChange(4, [1, 2]))
+                           ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1375, 1375, 1389)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1375, 1375, 1382)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1375, 1375, 1383)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Int]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1375, 1375, 1384)
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Int]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1398, 1398, 1407)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Int]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1398, 1398, 1407)
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[Int]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 1397, 1397, 1406)
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:69: error: <- expected but = found
+        for (coin = currentCoin ; coin < coins.length ; coin++) {
+                  ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 08, 2019 11:59:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5433
+Sep 08, 2019 11:59:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5434
+Sep 08, 2019 11:59:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5435
+Sep 08, 2019 11:59:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala:62: error: : expected but = found
+    def temp(money: Int, currentCoinIndex = current): Int = {
+                                          ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+Sep 08, 2019 12:16:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6113
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 538, 538, 552)
+something's wrong: no file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala in List[<error>]RangePosition(file:///Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala, 538, 538, 544)
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab0/src/main/scala/recfun/Main.scala
