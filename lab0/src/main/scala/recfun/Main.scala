@@ -56,7 +56,6 @@ object Main {
   /**
     * Exercise 3
     */
-  var current: Int = 0
   def countChange(money: Int, coins: List[Int]): Int = {
     var count: Int = 0
     if (money == 0) {
