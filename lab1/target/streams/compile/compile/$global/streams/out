@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:221:17: value contains is not a member of objsets.Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m          tweet.contains(word)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

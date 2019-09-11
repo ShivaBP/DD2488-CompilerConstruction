@@ -1,0 +1,264 @@
+INFO  time: initialize in 0.75s
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetData.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetReader.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Sep 11, 2019 1:20:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Sep 11, 2019 1:20:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/build.sbt
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Exception in thread "pool-1-thread-116" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:20)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:350)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:59)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:59)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:171)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:164)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Sep 11, 2019 3:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1073
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:57: error: ) expected but => found
+  def union(that: TweetSet): TweetSet = that.filterAcc(true => true, this)
+                                                            ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Sep 11, 2019 3:32:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1100
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:57: error: ) expected but => found
+  def union(that: TweetSet): TweetSet = that.filterAcc(true => true , this)
+                                                            ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:69: error: illegal start of simple pattern
+    for ())
+         ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:57: error: illegal start of simple expression
+  def union(that: TweetSet): TweetSet = that.filterAcc(Tweet =>, this)
+                                                               ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Sep 11, 2019 5:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2343
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+ERROR scalafmt: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala:122: error: identifier expected but \n\n found
+    */
+      ^
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Sep 11, 2019 6:13:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3427
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+Sep 11, 2019 6:38:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.05s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  shutting down Metals
+INFO  time: initialize in 0.75s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+Sep 11, 2019 6:51:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 11, 2019 6:51:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+WARN  no build target: /Users/shivabp/Desktop/DD2488/lab1/src/main/scala/objsets/TweetSet.scala
