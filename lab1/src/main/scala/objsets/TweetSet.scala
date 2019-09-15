@@ -146,6 +146,7 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   def union(that: TweetSet): TweetSet = {
     right.union(left.union(that)).incl(elem)
   }
+
   def mostRetweeted: Tweet = {
     var mostretweeted = elem
     var maxRetweets = elem.retweets
@@ -158,6 +159,7 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     )
     mostretweeted
   }
+  
   def descendingByRetweet: TweetList = {
     var mostRetweetedSoFar = this.mostRetweeted
     var newList = this.remove(mostRetweetedSoFar)
