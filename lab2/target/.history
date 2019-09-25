@@ -1,0 +1,7 @@
+compile
+run
+run invalid/002.p0
+testprograms/lab2/invalid/002.p0
+run testprograms/lab2/invalid/002.p0
+run testprograms/lab2/valid/crazyids.p0
+run testprograms/lab2/valid/positions.p0
