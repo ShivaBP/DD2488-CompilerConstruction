@@ -34,8 +34,8 @@ object Lexer extends Phase[File, Iterator[Token]] {
           eofToken.setPos(f, currentPosition + 1)
           return eofToken
         }
+       
         // Handle forward-slash
-
         var con = false
         do {
           while (source.hasNext && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
