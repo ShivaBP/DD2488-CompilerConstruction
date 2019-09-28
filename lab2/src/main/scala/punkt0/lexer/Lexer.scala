@@ -1,6 +1,5 @@
 package punkt0
 package lexer
-
 import java.io.File
 import scala.collection.mutable
 
@@ -13,6 +12,8 @@ object Lexer extends Phase[File, Iterator[Token]] {
     var fileEnd: Boolean = false
     var hasSentEOF: Boolean = false
     var current = source.next()
+    var tokenToReturn: Token = null
+    var currentPosition = source.pos
 
     new Iterator[Token] {
 
@@ -25,9 +26,6 @@ object Lexer extends Phase[File, Iterator[Token]] {
       }
 
       def next: Token = {
-        var tokenToReturn: Token = null
-        var currentPosition = source.pos
-
         // Handle EOF
         if (fileEnd && !hasSentEOF) {
           hasSentEOF = true
@@ -36,103 +34,121 @@ object Lexer extends Phase[File, Iterator[Token]] {
           eofToken.setPos(f, currentPosition + 1)
           return eofToken
         }
+        // Handle forward-slash
 
-        // Handle tokens
-        currentPosition = source.pos
-
-        // Forward slash
-        if (current.equals('/')) {
-          if (source.hasNext) {
+        var con = false
+        do {
+          while (source.hasNext && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
             current = source.next()
-            current match {
-              case '/' => {
-                while (!current.equals('\n') && source.hasNext) {
-                  current = source.next()
-                }
-                if (!source.hasNext) {
-                  fileEnd = true
-                  new Token(EOF)
-                } else {
-                  current = source.next()
-                }
-              }
-              case '*' => {
-                if (source.hasNext) {
-                  current = source.next()
-                  if (current.equals('*')) {
-                    if (source.hasNext) {
-                      current = source.next()
-                      if (current.equals('/')) {
-                        if (source.hasNext) {
-                          current = source.next()
-                        } else {
-                          fileEnd = true
-                          new Token(EOF)
-                        }
-                      } else if (!current.equals('/') && !source.hasNext) {
-                        fileEnd = true
-                        Reporter.error("Invalid Block comment ")
-                        Reporter.terminateIfErrors()
-                        new Token(BAD)
-                      } else {
-                        current = source.next()
-                      }
-
-                    } else {
-                      fileEnd = true
-                      Reporter.error("Invalid Block comment ")
-                      Reporter.terminateIfErrors()
-                      new Token(BAD)
-                    }
-                  } else if (!current.equals('/') && !source.hasNext) {
-                    fileEnd = true
-                    Reporter.error("Invalid token ")
-                    Reporter.terminateIfErrors()
-                    new Token(BAD)
-                  } else {
-                    current = source.next()
-                  }
-
-                } else {
-                  fileEnd = true
-                  Reporter.error("Invalid Block comment ")
-                  Reporter.terminateIfErrors()
-                  new Token(BAD)
-                }
-              }
-              case _ => {
-                Reporter.error("Invalid token ")
-                Reporter.terminateIfErrors()
-                new Token(BAD)
-              }
-            }
-          } else {
-            // Division sign
-            new Token(DIV)
           }
+
+           // EOF
+        if (!(source.hasNext)) {
+          fileEnd = true
         }
 
-        //Keyword or identifier
-        else if (isLetter(ascii(current))) {
-          var tempStorage = new StringBuilder()
-          tempStorage += current
-          if (source.hasNext) {
-            current = source.next()
+          if (current.equals('/')) {
+             currentPosition = source.pos
+            if (source.hasNext) {
+              current = source.next()
+              if (current.equals('/')) {
+                while (!fileEnd && !current.equals('\n')) {
+                  if (source.hasNext) {
+                    current = source.next()
+                  } else {
+                    fileEnd = true
+                  }
+                }          
+                while (!fileEnd && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
+                  if (source.hasNext) {
+                    current = source.next()
+                  } else {
+                    fileEnd = true
+                  }
+                }
+                if (fileEnd) {
+                  hasSentEOF = true
+                  currentPosition = source.pos
+                  var eofToken: Token = new Token(EOF)
+                  eofToken.setPos(f, currentPosition)
+                  return eofToken
+                }
+                con = true
+              } else if (current.equals('*')) {
+                var ignore = true
+                while (ignore) {
+                  if (source.hasNext) {
+                    current = source.next()
+                    if (current.equals('*')) {
+                      if (source.hasNext) {
+                        current = source.next()
+                        if (current.equals('/')) {
+                          ignore = false
+                          if (source.hasNext) {
+                            current = source.next()
+                          } else {
+                            fileEnd = true
+                          } 
+                        }
+                      } else {
+                        Reporter.error("Invalid block comment")
+                        Reporter.terminateIfErrors()
+                        tokenToReturn = new Token(BAD)
+                      } 
+                    }
+                  } else {
+                    Reporter.error("Invalid block comment")
+                    Reporter.terminateIfErrors()
+                    tokenToReturn = new Token(BAD) 
+                  } 
+                }          
+                while (!fileEnd && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
+                  if (source.hasNext) {
+                    current = source.next()
+                  } else {
+                    fileEnd = true
+                  }
+                }
+                if (fileEnd) {
+                  hasSentEOF = true
+                  currentPosition = source.pos
+                  var eofToken: Token = new Token(EOF)
+                  eofToken.setPos(f, currentPosition)
+                  return eofToken
+                }
+              }
+              con = true
+
+            } else {
+              tokenToReturn = new Token(DIV)
+            }
           } else {
-            fileEnd = true
+            con = false
           }
+        } while (con)
+
+        // Handle tokens
+         currentPosition = source.pos
+
+        //Keyword or identifier
+        if (isLetter(ascii(current))) {
+          var tempStorage = new StringBuilder()
+
           while (source.hasNext && (isLetter(ascii(current)) || isDigit(
                    ascii(current)
                  ) || (current.equals('_')))) {
             tempStorage += current
+
             current = source.next()
           }
-          if (!source.hasNext) {
+          if (!source.hasNext && (isLetter(ascii(current)) || isDigit(
+                ascii(current)
+              ) || (current.equals('_')))) {
             tempStorage += current
             fileEnd = true
           }
           var wannaBeToken = tempStorage.toString()
-          tokenToReturn = wannaBeToken match {
+          tokenToReturn = tempStorage.toString() match {
             // Keyword
             case "Boolean"  => new Token(BOOLEAN)
             case "class"    => new Token(CLASS)
@@ -154,8 +170,14 @@ object Lexer extends Phase[File, Iterator[Token]] {
             case "var"      => new Token(VAR)
             case "while"    => new Token(WHILE)
             // Identifier
-            case _ => new ID(wannaBeToken)
+            case _ => new ID(tempStorage.toString())
           }
+          if (source.hasNext) {
+            current = source.next()
+          } else
+            (
+              fileEnd = true
+            )
         }
 
         //Integer literal
@@ -165,6 +187,7 @@ object Lexer extends Phase[File, Iterator[Token]] {
               current = source.next()
             } else {
               fileEnd = true
+
             }
           }
           var k = 0
@@ -183,6 +206,7 @@ object Lexer extends Phase[File, Iterator[Token]] {
             current = source.next()
           } else {
             fileEnd = true
+
           }
         }
 
@@ -216,6 +240,20 @@ object Lexer extends Phase[File, Iterator[Token]] {
 
         // Special characters
         else {
+          while (!fileEnd && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
+            if (source.hasNext) {
+              current = source.next()
+            } else {
+              fileEnd = true
+            }
+          }
+          if (fileEnd) {
+            hasSentEOF = true
+            currentPosition = source.pos
+            var eofToken: Token = new Token(EOF)
+            eofToken.setPos(f, currentPosition)
+            return eofToken
+          }
           tokenToReturn = current match {
             case ':' => new Token(COLON)
             case ';' => new Token(SEMICOLON)
@@ -231,14 +269,16 @@ object Lexer extends Phase[File, Iterator[Token]] {
             case '(' => new Token(LPAREN)
             case ')' => new Token(RPAREN)
             case '=' => {
-              if (source.hasNext && source.next().equals('=')) {
+              var next = source.next()
+              if (next.equals('=')) {
                 new Token(EQUALS)
               } else {
                 new Token(EQSIGN)
               }
             }
             case '&' => {
-              if (source.hasNext && source.next().equals('&')) {
+              var next = source.next()
+              if (next.equals('&')) {
                 new Token(AND)
               } else {
                 Reporter.error("Invalid AND")
@@ -247,7 +287,8 @@ object Lexer extends Phase[File, Iterator[Token]] {
               }
             }
             case '|' => {
-              if (source.hasNext && source.next().equals('|')) {
+              var next = source.next()
+              if (next.equals('|')) {
                 new Token(OR)
               } else {
                 Reporter.error("Invalid OR")
@@ -256,7 +297,7 @@ object Lexer extends Phase[File, Iterator[Token]] {
               }
             }
             case EOFCharacter => new Token(EOF)
-            case _ =>
+            case x =>
               Reporter.error("Invalid token")
               Reporter.terminateIfErrors()
               new Token(BAD)
@@ -269,13 +310,12 @@ object Lexer extends Phase[File, Iterator[Token]] {
         }
 
         //Whitespace
-        while (source.hasNext && (current.isWhitespace || current.equals('\n') || current
-                 .equals(' '))) {
+        while (source.hasNext && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
           current = source.next()
         }
 
         // EOF
-        if (!source.hasNext) {
+        if (!(source.hasNext)) {
           fileEnd = true
         }
 
