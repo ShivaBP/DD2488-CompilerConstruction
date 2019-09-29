@@ -117,7 +117,6 @@ object Lexer extends Phase[File, Iterator[Token]] {
                 }
               }
               con = true
-
             } else {
               tokenToReturn = new Token(DIV)
             }
