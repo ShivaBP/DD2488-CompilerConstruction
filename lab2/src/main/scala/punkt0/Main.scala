@@ -51,6 +51,7 @@ object Main {
       }
     }
   }
+  
   def displayHelp(): Unit = {
     println("Usage: <punkt0c> [options] <file>")
     println("Options include:")

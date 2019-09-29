@@ -38,15 +38,14 @@ object Lexer extends Phase[File, Iterator[Token]] {
         // Handle forward-slash
         var con = false
         do {
+        // Whitespaces
           while (source.hasNext && (current.isWhitespace || current.equals('\n') || current.equals(' '))) {
             current = source.next()
           }
-
            // EOF
         if (!(source.hasNext)) {
           fileEnd = true
         }
-
           if (current.equals('/')) {
              currentPosition = source.pos
             if (source.hasNext) {
