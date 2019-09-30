@@ -42,6 +42,13 @@ object Main {
     ctx
   }
 
+  def displayHelp(): Unit = {
+    println("Usage: <punkt0c> [options] <file>")
+    println("Options include:")
+    println(" --help        displays this help")
+    println(" -d <outdir>   generates class files in the specified directory")
+  }
+
   def displayTokens(ctx: Context): Unit = {
     val lexerIter = Lexer.run(ctx.file.get)(ctx)
     while (lexerIter.hasNext) {
@@ -50,13 +57,6 @@ object Main {
         println(t + "(" + t.line + ":" + t.column + ")")
       }
     }
-  }
-  
-  def displayHelp(): Unit = {
-    println("Usage: <punkt0c> [options] <file>")
-    println("Options include:")
-    println(" --help        displays this help")
-    println(" -d <outdir>   generates class files in the specified directory")
   }
 
   def main(args: Array[String]): Unit = {
