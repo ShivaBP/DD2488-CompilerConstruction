@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shivabp/Desktop/dd2488-2019-Group_8/src/main/scala/punkt0/Main.scala:66:15: punkt0.lexer.Token and punkt0.lexer.BAD.type are unrelated: they will most likely always compare unequal[0m
+[0m[[0m[33mwarn[0m] [0m[0m        if (t != BAD) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shivabp/Desktop/dd2488-2019-Group_8/src/main/scala/punkt0/Main.scala:67:19: method any2stringadd in object Predef is deprecated (since 2.13.0): Implicit injection of + is deprecated. Convert to String to call +[0m
+[0m[[0m[33mwarn[0m] [0m[0m          println(t + "(" + t.line + ":" + t.column + ")")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
