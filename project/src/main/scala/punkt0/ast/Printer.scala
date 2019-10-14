@@ -7,9 +7,8 @@ object Printer {
   def apply(t: Tree): String = {
     val sb: StringBuilder = new StringBuilder
 
-    def printIdentifier(ident: Identifier): String = {
+    def printIdentifier(ident: Identifier): Unit = {
       sb.append(ident.asInstanceOf[Identifier].value)
-      sb.toString()
     }
 
     def printType(typeValue: TypeTree): Unit = {
@@ -19,11 +18,10 @@ object Printer {
         case StringType()  => sb.append("String")
         case Identifier(_) =>
           sb.append(typeValue.asInstanceOf[Identifier].value)
-        case _ => sb.append(" No such type ")
       }
     }
 
-    def printExpression(expression: ExprTree): String = {
+    def printExpression(expression: ExprTree): Unit = {
       expression match {
         case Or(_, _) =>
           val or = expression.asInstanceOf[Or]
@@ -136,7 +134,7 @@ object Printer {
           printExpression(ifStat.thn)
           if (!(ifStat.els == None)) {
             sb.append("    else ")
-            printExpression(ifStat.els.get)
+            sb.append(ifStat.els.get)
           }
         case While(_, _) =>
           val whileStat = expression.asInstanceOf[While]
@@ -149,7 +147,6 @@ object Printer {
           sb.append("println")
           printExpression(printStat.expr)
       }
-      sb.toString()
     }
 
     def printVar(varDecl: VarDecl): Unit = {
@@ -172,7 +169,7 @@ object Printer {
       if (methodDecl.overrides == true) {
         sb.append("override ")
       }
-      sb.append("def")
+      sb.append("def ")
       printIdentifier(methodDecl.id)
       sb.append("( ")
       if (methodDecl.args.length > 0) {
