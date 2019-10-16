@@ -47,7 +47,6 @@ object Parser extends Phase[Iterator[Token], Program] {
 
         case _ => expected(IDKIND)
       }
-
     }
 
     def typeParser: TypeTree = {
@@ -176,7 +175,7 @@ object Parser extends Phase[Iterator[Token], Program] {
           currentToken.kind match {
             case EQSIGN =>
               readToken
-              val expression = exprParser
+              val expression = expr0
               toReturn = Assign(ident, expression).setPos(idPos)
             case _ =>
               toReturn = ident
@@ -353,6 +352,7 @@ object Parser extends Phase[Iterator[Token], Program] {
         expressions = expressions ++ List(expr0)
       }
       returnExpr = expressions.last
+      expressions = expressions.dropRight(1)
       eat(RBRACE)
       MethodDecl(
         overrideVar,
