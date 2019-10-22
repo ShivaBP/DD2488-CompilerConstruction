@@ -4,242 +4,89 @@ package ast
 import Trees._
 
 object Printer {
-  def apply(t: Tree): String = {
-    val sb: StringBuilder = new StringBuilder
+  val tab: String = "  "
 
-    def printIdentifier(ident: Identifier): Unit = {
-      sb.append(ident.asInstanceOf[Identifier].value)
-    }
-
-    def printType(typeValue: TypeTree): Unit = {
-      typeValue match {
-        case BooleanType() => sb.append("Bool")
-        case IntType()     => sb.append("Int")
-        case StringType()  => sb.append("String")
-        case Identifier(_) =>
-          sb.append(typeValue.asInstanceOf[Identifier].value)
-      }
-    }
-
-    def printExpression(expression: ExprTree): Unit = {
-      expression match {
-        case Or(_, _) =>
-          val or = expression.asInstanceOf[Or]
-          sb.append("(")
-          sb.append(printExpression(or.lhs))
-          sb.append(" || ")
-          sb.append(printExpression(or.rhs))
-          sb.append(")")
-        case And(_, _) =>
-          val and = expression.asInstanceOf[And]
-          sb.append("(")
-          sb.append(printExpression(and.lhs))
-          sb.append(" && ")
-          sb.append(printExpression(and.rhs))
-          sb.append(")")
-        case Equals(_, _) =>
-          val eq = expression.asInstanceOf[Equals]
-          sb.append("(")
-          sb.append(printExpression(eq.lhs))
-          sb.append(" == ")
-          sb.append(printExpression(eq.rhs))
-          sb.append(")")
-        case LessThan(_, _) =>
-          val less = expression.asInstanceOf[LessThan]
-          sb.append("(")
-          sb.append(printExpression(less.lhs))
-          sb.append(" < ")
-          sb.append(printExpression(less.rhs))
-          sb.append(")")
-        case Plus(_, _) =>
-          val plus = expression.asInstanceOf[Plus]
-          sb.append("(")
-          sb.append(printExpression(plus.lhs))
-          sb.append(" + ")
-          sb.append(printExpression(plus.rhs))
-          sb.append(")")
-        case Minus(_, _) =>
-          val minus = expression.asInstanceOf[Minus]
-          sb.append("(")
-          sb.append(printExpression(minus.lhs))
-          sb.append(" - ")
-          sb.append(printExpression(minus.rhs))
-          sb.append(")")
-        case Times(_, _) =>
-          val mul = expression.asInstanceOf[Times]
-          sb.append("(")
-          sb.append(printExpression(mul.lhs))
-          sb.append(" * ")
-          sb.append(printExpression(mul.rhs))
-          sb.append(")")
-        case Div(_, _) =>
-          val divide = expression.asInstanceOf[Div]
-          sb.append("(")
-          sb.append(printExpression(divide.lhs))
-          sb.append(" / ")
-          sb.append(printExpression(divide.rhs))
-          sb.append(")")
-        case True()    => sb.append("true")
-        case False()   => sb.append("false")
-        case This()    => sb.append("this")
-        case Null()    => sb.append("null")
-        case IntLit(_) => sb.append(expression.asInstanceOf[IntLit].value)
-        case StringLit(_) =>
-          sb.append("\" " + expression.asInstanceOf[StringLit].value + " \"")
-        case Identifier(_) =>
-          sb.append(expression.asInstanceOf[Identifier].value)
-        case Assign(_, _) =>
-          val assignment = expression.asInstanceOf[Assign]
-          printIdentifier(assignment.id)
-          sb.append(" = ")
-          printExpression(assignment.expr)
-          sb.append(";\n")
-        case New(_) =>
-          val newObj = expression.asInstanceOf[New]
-          sb.append("new " + printType(newObj.tpe) + "()")
-        case Not(_) =>
-          val variable = expression.asInstanceOf[Not]
-          sb.append("!")
-          printExpression(variable.expr)
-        case MethodCall(_, _, _) =>
-          val methodCaller = expression.asInstanceOf[MethodCall]
-          printExpression(methodCaller.obj)
-          sb.append("." + methodCaller.meth.value + "( ")
-          if (methodCaller.args.length > 0) {
-            printExpression(methodCaller.args.head)
-            if (methodCaller.args.length > 1) {
-              for (arg <- methodCaller.args.tail) {
-                sb.append(", ")
-                printExpression(arg)
-              }
-            }
-          }
-        case Block(_) =>
-          val blockStats = expression.asInstanceOf[Block]
-          sb.append("{ ")
-          if (blockStats.exprs.length > 0) {
-            printExpression(blockStats.exprs.head)
-            if (blockStats.exprs.length > 1) {
-              for (expr <- blockStats.exprs.tail) {
-                sb.append("; ")
-                printExpression(expr)
-              }
-            }
-          }
-        case If(_, _, _) =>
-          val ifStat = expression.asInstanceOf[If]
-          sb.append("if ( ")
-          printExpression(ifStat.expr)
-          sb.append(" ) ")
-          printExpression(ifStat.thn)
-          if (!(ifStat.els == None)) {
-            sb.append("    else ")
-            sb.append(ifStat.els.get)
-          }
-        case While(_, _) =>
-          val whileStat = expression.asInstanceOf[While]
-          sb.append("while (")
-          printExpression(whileStat.cond)
-          sb.append(" )")
-          printExpression(whileStat.body)
-        case Println(_) =>
-          val printStat = expression.asInstanceOf[Println]
-          sb.append("println")
-          printExpression(printStat.expr)
-      }
-    }
-
-    def printVar(varDecl: VarDecl): Unit = {
-      sb.append("var")
-      printIdentifier(varDecl.id)
-      sb.append(" : ")
-      printType(varDecl.tpe)
-      sb.append(" = ")
-      printExpression(varDecl.expr)
-      sb.append(";\n")
-    }
-
-    def printFormal(formal: Formal): Unit = {
-      printIdentifier(formal.id)
-      sb.append(" : ")
-      printType(formal.tpe)
-    }
-
-    def printMethod(methodDecl: MethodDecl): Unit = {
-      if (methodDecl.overrides == true) {
-        sb.append("override ")
-      }
-      sb.append("def ")
-      printIdentifier(methodDecl.id)
-      sb.append("( ")
-      if (methodDecl.args.length > 0) {
-        printFormal(methodDecl.args.head)
-        if (methodDecl.args.length > 1) {
-          for (arg <- methodDecl.args.tail) {
-            sb.append(", ")
-            printFormal(arg)
-          }
+  def apply(t: Tree, doSymbolId: Boolean = false): String = {
+    def strs(trees: List[Tree], sep: String): String =
+      trees
+        .map { t =>
+          str(t)
         }
-      }
-      sb.append(" ) :")
-      printType(methodDecl.retType)
-      sb.append(" ={ ")
-      if (methodDecl.vars.length != 0) {
-        for (varDecl <- methodDecl.vars) {
-          printVar(varDecl)
+        .mkString(sep)
+    def binaryExpr(lhs: Tree, rhs: Tree, sep: String): String =
+      "(" + strs(List(lhs, rhs), sep) + ")"
+    def tabb(s: String) =
+      s.lines
+        .map { x =>
+          tab + x
         }
-      }
-      for (expr <- methodDecl.exprs) {
-        printExpression(expr)
-      }
-      sb.append(" }\n")
+        .mkString("\n")
+
+    def str(t: Tree): String = t match {
+      case Program(main, classes) =>
+        strs(classes, "\n\n") + "\n\n" + str(main)
+      case MainDecl(objId, parent, vars, exprs) =>
+        val head = "object " + str(objId) + " extends " + str(parent) + " {\n"
+        val varDecls = if (vars.isEmpty) "" else strs(vars, "\n") + "\n"
+        val expressions =
+          if (exprs.size < 2) "" else strs(exprs.init, ";\n") + ";\n"
+        val body = varDecls + expressions + (if (exprs.nonEmpty) str(exprs.last)
+                                             else "")
+        head + tabb(body) + "\n}"
+      case ClassDecl(id, parent, vars, methods) =>
+        val head = "class " + str(id) +
+          (if (parent.isDefined) " extends " + str(parent.get) else "") + " {\n"
+        val body = strs(vars, "\n") + (if (vars.isEmpty) "\n" else "\n\n") +
+          strs(methods, "\n\n")
+        head + tabb(body) + "\n\n}"
+      case VarDecl(tpe, id, expr) =>
+        "var " + str(id) + ": " + str(tpe) + " = " + str(expr) + ";"
+      case MethodDecl(overrides, retType, id, args, vars, exprs, retExpr) =>
+        val head = (if (overrides) "override " else "") + "def " + str(id) + "(" +
+          strs(args, ", ") + "): " + str(retType) + " = {\n"
+        val varDecls = if (vars.isEmpty) "" else strs(vars, "\n") + "\n"
+        val expressions = if (exprs.isEmpty) "" else strs(exprs, ";\n") + ";\n"
+        val body = varDecls + expressions + str(retExpr)
+        head + tabb(body) + "\n}"
+      case Formal(tpe, id) => str(id) + ": " + str(tpe)
+
+      // types
+      case IntType()     => "Int"
+      case BooleanType() => "Boolean"
+      case StringType()  => "String"
+      case UnitType()    => "Unit"
+
+      //Expressions
+      case And(lhs, rhs)      => binaryExpr(lhs, rhs, " && ")
+      case Or(lhs, rhs)       => binaryExpr(lhs, rhs, " || ")
+      case Plus(lhs, rhs)     => binaryExpr(lhs, rhs, " + ")
+      case Minus(lhs, rhs)    => binaryExpr(lhs, rhs, " - ")
+      case Times(lhs, rhs)    => binaryExpr(lhs, rhs, " * ")
+      case Div(lhs, rhs)      => binaryExpr(lhs, rhs, " / ")
+      case LessThan(lhs, rhs) => binaryExpr(lhs, rhs, " < ")
+      case Equals(lhs, rhs)   => binaryExpr(lhs, rhs, " == ")
+      case MethodCall(obj, meth, args) =>
+        str(obj) + "." + str(meth) + "(" + strs(args, ", ") + ")"
+      case IntLit(value)          => value.toString
+      case StringLit(value)       => "\"" + value.toString + "\""
+      case True()                 => "true"
+      case False()                => "false"
+      case id @ Identifier(value) => value.toString
+      case This()                 => "this"
+      case Null()                 => "null"
+      case New(tpe)               => "new " + str(tpe) + "()"
+      case Not(expr)              => "!(" + str(expr) + ")"
+      case Block(exprs)           => "{\n" + tabb(strs(exprs, ";\n")) + "\n}"
+      case If(expr, thn, els) =>
+        "if ( " + str(expr) + " ) " + str(thn) + (if (els.isDefined)
+                                                    "\nelse " + str(els.get)
+                                                  else "")
+      case While(cond, body) => "while ( " + str(cond) + " ) " + str(body)
+      case Println(expr)     => "println(" + str(expr) + ")"
+      case Assign(id, expr)  => str(id) + " = " + str(expr)
+      case _                 => ???
     }
 
-    def printMain(mainDecl: MainDecl): Unit = {
-      sb.append("object ")
-      printIdentifier(mainDecl.obj)
-      sb.append(" extends ")
-      printIdentifier(mainDecl.parent)
-      sb.append(" { ")
-      if (mainDecl.vars.length != 0) {
-        for (varDecl <- mainDecl.vars) {
-          printVar(varDecl)
-        }
-      }
-      for (expr <- mainDecl.exprs) {
-        printExpression(expr)
-      }
-      sb.append(" }\n ")
-    }
-
-    def printClass(classDecl: ClassDecl): Unit = {
-      sb.append("class ")
-      printIdentifier(classDecl.id)
-      if (!(classDecl.parent == None)) {
-        sb.append(" extends ")
-        sb.append(classDecl.parent.get.value)
-      }
-      sb.append(" { ")
-      if (classDecl.vars.length != 0) {
-        for (varDecl <- classDecl.vars) {
-          printVar(varDecl)
-        }
-      }
-      if (classDecl.methods.length != 0) {
-        for (method <- classDecl.methods) {
-          printMethod(method)
-        }
-      }
-      sb.append(" }\n ")
-    }
-
-    val prog = t.asInstanceOf[Program]
-    if (prog.classes.length != 0) {
-      for (theClass <- prog.classes) {
-        printClass(theClass)
-      }
-    }
-    printMain(prog.main)
-    sb.toString()
+    str(t)
   }
 }

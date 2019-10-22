@@ -186,7 +186,6 @@ object Lexer extends Phase[File, Iterator[Token]] {
               current = source.next()
             } else {
               fileEnd = true
-
             }
           }
           var k = 0
