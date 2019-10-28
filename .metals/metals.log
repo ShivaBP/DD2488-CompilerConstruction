@@ -2547,3 +2547,5 @@ WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/projec
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Parser.scala
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Parser.scala
+INFO  shutting down Metals
