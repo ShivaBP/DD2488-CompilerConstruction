@@ -4,14 +4,14 @@ Program(
     [
     ],
     [
-      Block([
+      Block(
         [
           Println(
             MethodCall(
               New(
                 Identifier(ConcentricCircles#2):ConcentricCircles
               ):ConcentricCircles,
-              render#7,
+              Identifier(render#7),
               [
               ]
             ):String
@@ -21,7 +21,7 @@ Program(
               New(
                 Identifier(Mandelbrot#3):Mandelbrot
               ):Mandelbrot,
-              render#7,
+              Identifier(render#7),
               [
               ]
             ):String
@@ -31,7 +31,7 @@ Program(
               New(
                 Identifier(Cross#4):Cross
               ):Cross,
-              render#7,
+              Identifier(render#7),
               [
               ]
             ):String
@@ -58,7 +58,7 @@ Program(
       [
         MethodDecl(false,
           StringType(),
-          render#7,
+          Identifier(render#7),
           [
           ],
           [
@@ -118,20 +118,20 @@ Program(
                 Identifier(y#12):Int,
                 Identifier(resY#6):Int
               ):Boolean,
-              Block([
+              Block(
                 [
                   While(
                     LessThan(
                       Identifier(x#11):Int,
                       Identifier(resX#5):Int
                     ):Boolean,
-                    Block([
+                    Block(
                       [
                         Assign(
                           Identifier(depth#8):Int,
                           MethodCall(
                             This():Drawable,
-                            computePixel#13,
+                            Identifier(computePixel#13),
                             [
                               Identifier(x#11):Int,
                               Identifier(y#12):Int
@@ -143,7 +143,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(1):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -157,7 +157,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(1):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -171,7 +171,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(2):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -185,7 +185,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(3):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -199,7 +199,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(4):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -213,7 +213,7 @@ Program(
                             Identifier(depth#8):Int,
                             IntLit(5):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -227,7 +227,7 @@ Program(
                             IntLit(5):Int,
                             Identifier(depth#8):Int
                           ):Boolean,
-                          Block([
+                          Block(
                             [
                               Assign(
                                 Identifier(symb#10):String,
@@ -280,7 +280,7 @@ Program(
             Println(
               MethodCall(
                 This():Drawable,
-                getDesc#16,
+                Identifier(getDesc#16),
                 [
                 ]
               ):String
@@ -314,7 +314,7 @@ Program(
         ),
         MethodDecl(false,
           IntType(),
-          computePixel#13,
+          Identifier(computePixel#13),
           [
             Formal(
               IntType(),
@@ -333,7 +333,7 @@ Program(
         ),
         MethodDecl(false,
           StringType(),
-          getDesc#16,
+          Identifier(getDesc#16),
           [
           ],
           [
@@ -351,7 +351,7 @@ Program(
       [
         MethodDecl(true,
           IntType(),
-          computePixel#17,
+          Identifier(computePixel#17),
           [
             Formal(
               IntType(),
@@ -459,7 +459,7 @@ Program(
                   Identifier(maxIter#25):Int
                 ):Boolean
               ):Boolean,
-              Block([
+              Block(
                 [
                   Assign(
                     Identifier(xTemp#26):Int,
@@ -494,7 +494,7 @@ Program(
         ),
         MethodDecl(true,
           StringType(),
-          getDesc#27,
+          Identifier(getDesc#27),
           [
           ],
           [
@@ -512,7 +512,7 @@ Program(
       [
         MethodDecl(true,
           IntType(),
-          computePixel#28,
+          Identifier(computePixel#28),
           [
             Formal(
               IntType(),
@@ -623,7 +623,7 @@ Program(
                   Identifier(maxIter#36):Int
                 ):Boolean
               ):Boolean,
-              Block([
+              Block(
                 [
                   Assign(
                     Identifier(xTemp#37):Int,
@@ -673,7 +673,7 @@ Program(
         ),
         MethodDecl(true,
           StringType(),
-          getDesc#38,
+          Identifier(getDesc#38),
           [
           ],
           [
@@ -691,7 +691,7 @@ Program(
       [
         MethodDecl(true,
           IntType(),
-          computePixel#39,
+          Identifier(computePixel#39),
           [
             Formal(
               IntType(),
@@ -826,7 +826,7 @@ Program(
                   Identifier(maxIter#47):Int
                 ):Boolean
               ):Boolean,
-              Block([
+              Block(
                 [
                   Assign(
                     Identifier(xTemp#48):Int,
@@ -885,7 +885,7 @@ Program(
         ),
         MethodDecl(true,
           StringType(),
-          getDesc#50,
+          Identifier(getDesc#50),
           [
           ],
           [
@@ -896,4 +896,4 @@ Program(
         )
       ]
     )
-  ]))
+  ])

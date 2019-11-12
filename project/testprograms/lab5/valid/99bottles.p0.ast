@@ -9,7 +9,7 @@ Program(
           New(
             Identifier(DrunkPirate#1):DrunkPirate
           ):DrunkPirate,
-          sing#2,
+          Identifier(sing#2),
           [
           ]
         ):Boolean,
@@ -27,7 +27,7 @@ Program(
       [
         MethodDecl(false,
           BooleanType(),
-          sing#2,
+          Identifier(sing#2),
           [
           ],
           [
@@ -35,7 +35,7 @@ Program(
           [
             MethodCall(
               This():DrunkPirate,
-              verse#3,
+              Identifier(verse#3),
               [
                 IntLit(99):Int
               ]
@@ -45,7 +45,7 @@ Program(
         ),
         MethodDecl(false,
           IntType(),
-          verse#3,
+          Identifier(verse#3),
           [
             Formal(
               IntType(),
@@ -61,7 +61,7 @@ Program(
                   Plus(
                     MethodCall(
                       This():DrunkPirate,
-                      bottles#5,
+                      Identifier(bottles#5),
                       [
                         Identifier(number#4):Int
                       ]
@@ -70,7 +70,7 @@ Program(
                   ):String,
                   MethodCall(
                     This():DrunkPirate,
-                    bottles#5,
+                    Identifier(bottles#5),
                     [
                       Minus(
                         Identifier(number#4):Int,
@@ -88,11 +88,11 @@ Program(
               IntLit(1):Int,
               Identifier(number#4):Int
             ):Boolean,
-            Block([
+            Block(
               [
                 MethodCall(
                   This():DrunkPirate,
-                  verse#3,
+                  Identifier(verse#3),
                   [
                     Minus(
                       Identifier(number#4):Int,
@@ -102,7 +102,7 @@ Program(
                 ):Int
               ]
             ):Int,
-            Block([
+            Block(
               [
                 IntLit(0):Int
               ]
@@ -111,7 +111,7 @@ Program(
         ),
         MethodDecl(false,
           StringType(),
-          bottles#5,
+          Identifier(bottles#5),
           [
             Formal(
               IntType(),
@@ -127,12 +127,12 @@ Program(
               Identifier(number#6):Int,
               IntLit(0):Int
             ):Boolean,
-            Block([
+            Block(
               [
                 StringLit(no more bottles):String
               ]
             ):String,
-            Block([
+            Block(
               [
                 If(
                   Equals(
@@ -151,4 +151,4 @@ Program(
         )
       ]
     )
-  ]))
+  ])

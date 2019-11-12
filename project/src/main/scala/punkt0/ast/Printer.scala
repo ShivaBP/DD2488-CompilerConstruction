@@ -13,8 +13,10 @@ object Printer {
           str(t)
         }
         .mkString(sep)
+
     def binaryExpr(lhs: Tree, rhs: Tree, sep: String): String =
       "(" + strs(List(lhs, rhs), sep) + ")"
+
     def tabb(s: String) =
       s.lines
         .map { x =>
@@ -35,7 +37,9 @@ object Printer {
         head + tabb(body) + "\n}"
       case ClassDecl(id, parent, vars, methods) =>
         val head = "class " + str(id) +
-          (if (parent.isDefined) " extends " + str(parent.get) else "") + " {\n"
+          (if (parent.isDefined)
+             " extends " + str(parent.get)
+           else "") + " {\n"
         val body = strs(vars, "\n") + (if (vars.isEmpty) "\n" else "\n\n") +
           strs(methods, "\n\n")
         head + tabb(body) + "\n\n}"
@@ -67,16 +71,28 @@ object Printer {
       case Equals(lhs, rhs)   => binaryExpr(lhs, rhs, " == ")
       case MethodCall(obj, meth, args) =>
         str(obj) + "." + str(meth) + "(" + strs(args, ", ") + ")"
-      case IntLit(value)          => value.toString
-      case StringLit(value)       => "\"" + value.toString + "\""
-      case True()                 => "true"
-      case False()                => "false"
-      case id @ Identifier(value) => value.toString
-      case This()                 => "this"
-      case Null()                 => "null"
-      case New(tpe)               => "new " + str(tpe) + "()"
-      case Not(expr)              => "!(" + str(expr) + ")"
-      case Block(exprs)           => "{\n" + tabb(strs(exprs, ";\n")) + "\n}"
+      case IntLit(value)    => value.toString
+      case StringLit(value) => "\"" + value.toString + "\""
+      case True()           => "true"
+      case False()          => "false"
+      case id @ Identifier(value) =>
+        id._sym match {
+          case Some(s) =>
+            value.toString() + "#" + s.id
+          case None =>
+            value.toString() + "#??"
+        }
+      case This() =>
+        t.asInstanceOf[This]._sym match {
+          case Some(s) =>
+            "this" + "#" + s.id
+          case None =>
+            "this" + "#??"
+        }
+      case Null()       => "null"
+      case New(tpe)     => "new " + str(tpe) + "()"
+      case Not(expr)    => "!(" + str(expr) + ")"
+      case Block(exprs) => "{\n" + tabb(strs(exprs, ";\n")) + "\n}"
       case If(expr, thn, els) =>
         "if ( " + str(expr) + " ) " + str(thn) + (if (els.isDefined)
                                                     "\nelse " + str(els.get)
@@ -86,7 +102,6 @@ object Printer {
       case Assign(id, expr)  => str(id) + " = " + str(expr)
       case _                 => ???
     }
-
     str(t)
   }
 }

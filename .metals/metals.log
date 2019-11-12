@@ -2549,3 +2549,82 @@ WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/projec
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Parser.scala
 INFO  shutting down Metals
+INFO  time: initialize in 0.42s
+WARN  no build tool detected in workspace '/Users/shivabp/Desktop/DD2488-CompilerConstruction'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/lexer/Token.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/lexer/Lexer.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  shutting down Metals
+INFO  time: initialize in 0.52s
+WARN  no build tool detected in workspace '/Users/shivabp/Desktop/DD2488-CompilerConstruction'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/lexer/Lexer.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Parser.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Trees.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Parser.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/ast/Printer.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/NameAnalysis.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/NameAnalysis.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/Symbols.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/Symbols.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/TypeChecking.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/TypeChecking.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/TypedASTPrinter.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/TypedASTPrinter.scala
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/Types.scala
+Nov 12, 2019 2:03:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:41)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:35)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:74)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLsp.toLSP(MtagsEnrichments.scala:312)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:126)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:33)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:46)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:46)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:46)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:46)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:46)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:46)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:46)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:46)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:25)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:24)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:1005)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/Types.scala

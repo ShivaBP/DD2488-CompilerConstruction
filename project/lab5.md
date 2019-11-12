@@ -18,6 +18,7 @@ A valid Punkt0 program has the following properties:
   * The types of the parameters in the overriding and overridden methods must match exactly (no contravariance allowed).
   * The return type must match exactly (no covariance allowed).
   * The overriding method must carry the `override` modifier.
+  * **Note:** The names of parameters may change, only the signature is to be checked.
 * All expressions typecheck and have the expected type (the returned expression matches the declared return type, for instance).
 
 Your goal in this assignment is to enforce all the constraints not
@@ -42,7 +43,9 @@ name, for instance):
 
 Additionnally, we have class types:
 
+  * **AnyRef**
   * **TClass[*name*]**
+  * **TNull**
 
 We define a subtyping relation on these types. All primitive types are
 subtypes of themselves and of no other type. For instance:
@@ -55,11 +58,16 @@ class type. The subtyping relation is also transitive.
   * **TClass[*name*] <: TClass[*name*]** and **TClass[*name*] <: TClass[**AnyRef**]**
   * **TClass[**B**] <: TClass[**A**]** and **TClass[**C**] <: TClass[**B**]** implies **TClass[**C**] <: TClass[**A**]**
 
+**TNull** is subtype of all classes including **AnyRef**.
+
+  * **TNull <: TClass[*name*]**
+  * **TNull <: AnyRef**
+
 With this in mind, we give some of the non-trivial typing
 constraints. This is naturally not an exhaustive list of what you
 should implement, but we expect you to be able to deduce the other
 rules unambiguously yourself (if in doubt about a rule, ask on KTH
-Social).
+canvas).
 
 ### Overloaded `+`
 
@@ -194,3 +202,8 @@ unique ID and each node that is a subclass of ExprTree with the type of that
 expression given the `--ast+` option. Examples can be found in the testprograms
 folder. If you are using the classes as provided by the stubs you can use
 `analyzer.TypedASTPrinter` for printing the anotated AST.
+
+Note: after typechecking the methods should have an attached id when printing with
+`--symid` or `--ast+`. For grading, please use the id of the class it self if it
+defines the method or otherwise the id of the first super class that defines the
+method.
