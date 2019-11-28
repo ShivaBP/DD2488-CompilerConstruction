@@ -2628,3 +2628,4 @@ Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed
 	... 4 more
 
 WARN  no build target: /Users/shivabp/Desktop/DD2488-CompilerConstruction/project/src/main/scala/punkt0/analyzer/Types.scala
+INFO  shutting down Metals
