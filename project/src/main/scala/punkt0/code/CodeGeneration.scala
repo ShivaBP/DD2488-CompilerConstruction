@@ -405,7 +405,6 @@ object CodeGeneration extends Phase[Program, Unit] {
       mainVar.getSymbol.getType match {
         case TInt | TBoolean =>
           mainch << IStore(cafebabeVar)
-
         case TObject(_) | TString =>
           mainch << AStore(cafebabeVar)
       }
