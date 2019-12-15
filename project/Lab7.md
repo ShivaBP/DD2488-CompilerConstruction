@@ -1,11 +1,10 @@
-# Labs 7: Compiler extension - Improved Arguments and Fields
+# Lab 7: Extension of improved Arguments and Fields
 
-## Th task:
+## The task:
 What I will be implementing in this extension is primarily the features escribed on Canvas which were as follows:
-*Implement named arguments with potential default values. The default
-values can be arbitrary Punkt0 expressions.
+* Implement named arguments with potential default values. The default values can be arbitrary Punkt0 expressions.
 * Implement a mechanism for providing an arbitrary number of arguments to a function.
-*Provide Punkt0 classes with an extra copy() method that allows a quick
+* Provide Punkt0 classes with an extra copy() method that allows a quick
 cloning of an object while specifying which field to modify (similar to
 Scala's copy() method for case classes)
 
