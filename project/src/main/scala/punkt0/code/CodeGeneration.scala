@@ -9,6 +9,7 @@ import AbstractByteCodes.{New => _, _}
 import ByteCodes._
 
 object CodeGeneration extends Phase[Program, Unit] {
+  var slots = Map[Int, Int]()
 
   def recursivePOP(ch: CodeHandler, leftOnStack: Int) =
     for (i <- 1 to leftOnStack) {
@@ -59,26 +60,23 @@ object CodeGeneration extends Phase[Program, Unit] {
       case Identifier(value) =>
         val variRetreived =
           expr.asInstanceOf[Identifier].getSymbol.asInstanceOf[VariableSymbol]
-        var methodArgFlag = false
         if (locationMeth.argList.contains(variRetreived) && locationMeth != null) {
           var varIndex = locationMeth.argList.indexOf(variRetreived)
           ch << ArgLoad(varIndex + 1)
-          methodArgFlag = true
-        } else if (variRetreived.bytecodeID == -1) {
+        } else if (slots.get(variRetreived.id) != None) {
+          variRetreived.getType match {
+            case TInt | TBoolean =>
+              ch << ILoad(slots.get(variRetreived.id).get)
+            case TObject(_) | TString =>
+              ch << ALoad(slots.get(variRetreived.id).get)
+          }
+        } else {
           ch << ArgLoad(0)
           ch << GetField(
             locationClass.name,
             variRetreived.name,
             typeConvert(variRetreived.getType)
           )
-        } else {
-          variRetreived.getType match {
-            case TInt | TBoolean =>
-              ch << ILoad(variRetreived.bytecodeID)
-
-            case TObject(_) | TString =>
-              ch << ALoad(variRetreived.bytecodeID)
-          }
         }
         numberToPop = 1
       case Not(expr) =>
@@ -276,8 +274,16 @@ object CodeGeneration extends Phase[Program, Unit] {
         numberToPop = 0
       case Assign(id, expr) =>
         val variableRetreived = id.getSymbol.asInstanceOf[VariableSymbol]
-        val theByteCode = variableRetreived.bytecodeID
-        if (theByteCode == -1) {
+        if (slots.get(variableRetreived.id) != None) {
+          exprHandler(locationClass, locationMeth, ch, expr)
+          variableRetreived.getType match {
+            case TInt | TBoolean =>
+              ch << IStore(slots.get(variableRetreived.id).get)
+
+            case TObject(_) | TString =>
+              ch << AStore(slots.get(variableRetreived.id).get)
+          }
+        } else {
           ch << ArgLoad(0)
           exprHandler(locationClass, locationMeth, ch, expr)
           ch << PutField(
@@ -285,15 +291,6 @@ object CodeGeneration extends Phase[Program, Unit] {
             id.value,
             typeConvert(variableRetreived.getType)
           )
-        } else {
-          exprHandler(locationClass, locationMeth, ch, expr)
-          variableRetreived.getType match {
-            case TInt | TBoolean =>
-              ch << IStore(theByteCode)
-
-            case TObject(_) | TString =>
-              ch << AStore(theByteCode)
-          }
         }
         numberToPop = 0
     }
@@ -301,7 +298,6 @@ object CodeGeneration extends Phase[Program, Unit] {
   }
 
   def run(prog: Program)(ctx: Context): Unit = {
-
     // Class
     def generateClassFile(
         sourceName: String,
@@ -350,14 +346,12 @@ object CodeGeneration extends Phase[Program, Unit] {
           ch,
           methVar.expr
         )
-        val cafebabeVar = ch.getFreshVar
-        methVar.getSymbol.bytecodeID = cafebabeVar
+        slots = slots + (methVar.getSymbol.id -> ch.getFreshVar)
         methVar.getSymbol.getType match {
           case TInt | TBoolean =>
-            ch << IStore(cafebabeVar)
-
+            ch << IStore(slots.get(methVar.getSymbol.id).get)
           case TObject(_) | TString =>
-            ch << AStore(cafebabeVar)
+            ch << AStore(slots.get(methVar.getSymbol.id).get)
         }
       }
       for (expr <- mt.exprs) {
@@ -400,13 +394,12 @@ object CodeGeneration extends Phase[Program, Unit] {
         mainch,
         mainVar.expr
       )
-      val cafebabeVar = mainch.getFreshVar
-      mainVar.getSymbol.bytecodeID = cafebabeVar
+      slots = slots + (mainVar.getSymbol.id -> mainch.getFreshVar)
       mainVar.getSymbol.getType match {
         case TInt | TBoolean =>
-          mainch << IStore(cafebabeVar)
+          mainch << IStore(slots.get(mainVar.getSymbol.id).get)
         case TObject(_) | TString =>
-          mainch << AStore(cafebabeVar)
+          mainch << AStore(slots.get(mainVar.getSymbol.id).get)
       }
     }
     for (expr <- prog.main.exprs) {

@@ -10,7 +10,6 @@ sealed trait TokenKind
 case object STRLITKIND extends TokenKind
 case object INTLITKIND extends TokenKind
 case object IDKIND extends TokenKind
-
 case object BAD extends TokenKind // invalid token
 case object EOF extends TokenKind
 case object COLON extends TokenKind // :
