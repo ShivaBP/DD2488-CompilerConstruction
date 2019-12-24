@@ -17,44 +17,34 @@ object Main {
       case "--help" :: args =>
         ctx = ctx.copy(doHelp = true)
         processOption(args)
-
       case "-d" :: out :: args =>
         ctx = ctx.copy(outDir = Some(new File(out)))
         processOption(args)
-
       case "--tokens" :: args =>
         ctx = ctx.copy(doTokens = true)
         processOption(args)
-
       case "--ast" :: args =>
         ctx = ctx.copy(doAST = true)
         processOption(args)
-
       case "--print" :: args =>
         ctx = ctx.copy(doPrintMain = true)
         processOption(args)
-
       case "--symid" :: args =>
         ctx = ctx.copy(doSymbolIds = true)
         processOption(args)
-
       case "--ast+" :: args =>
         ctx = ctx.copy(doASTPlus = true)
         processOption(args)
-
       case f :: args =>
         ctx = ctx.copy(file = Some(new File(f)))
         processOption(args)
-
       case List() =>
     }
     processOption(args.toList)
-
     if (ctx.doHelp) {
       displayHelp()
       sys.exit(0)
     }
-
     ctx
   }
 
